@@ -1,0 +1,10 @@
+# flask-server/requirements.txt
+Flask
+Flask-SQLAlchemy
+python-dotenv
+psycopg2-binary
+boto3
+Flask-CORS
+python-jose
+requests
+Flask-Migrate
