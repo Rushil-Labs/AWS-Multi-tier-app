@@ -1,9 +1,15 @@
 # AWS-Multi-tier-app
 
+
+Designed and deployed a multi tier e-commerce website on AWS, the architecture of this website seperates the frontend, app logic and DB. 
+Moreover it uses ECS for the app logic layer. It is also aligned with AWS's Well-Architectured Framework for cost-efficiency, reliability, and operational excellence.
+
+---
+
 <p align="center">
-  <img src="images/architecture.png"<br>
-  <em>*Figure 1: Project Architecture Diagram*</em>
+  <img src="images/architecture.png" width="700" />
 </p>
+<p align="center"><i>Figure 1: Architecture</i></p>
 
 
 
@@ -21,11 +27,14 @@ Designed and deployed a scalable, secure multi-tier e-commerce web application u
 
 - Amazon CloudWatch for dynamic resource scaling and real-time monitoring.
 
-
+### Obtaining the docker image for the ECS cluster Deployment
+```bash
+rushillabs/cloudonauts:v3.8
+```
 
 <p align="center">
-  <img src="images/frontend.png"<br>
-  <em>*Figure 2: Project Frontend*</em>
+  <img src="images/frontend.png" width="700" />
 </p>
+<p align="center"><i>Figure 2: Project Frontend</i></p>
 
 Skills: AWS Architecture · Amazon ECS · Amazon Relational Database Service (RDS) · AWS Identity and Access Management (AWS IAM) · AWS Application Load Balancer · AWS Auto Scaling · AWS VPC · AWS Security Group
